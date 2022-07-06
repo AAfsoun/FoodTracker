@@ -1,0 +1,50 @@
+
+/* Color scheme */
+/* #150A41, #FFE1C8, #55003B */
+/* light blue: rgb(200, 225, 250) */
+/* rgb(25, 75, 45) */
+
+/* nav bar styling */
+#nav {
+   z-index: 500;  /* Prevent content from overlapping nav bar */
+
+}
+
+/* Styling of nav bar list */
+/* Perhaps some of the below is not used? */
+#nav ul {
+   display: inline;
+   list-style-type: none;
+   margin: 0px;
+   padding: 10px;
+   overflow: hidden;
+   background-color: rgb(100,0,0);
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+  }
+
+/* Orient list horizontal, not vertical */
+#nav ul li {
+   display: inline-block;
+   color: rgb(238, 252, 255);
+   padding: 10px;
+}
+
+/* Link colors in nav bar */
+#nav li > a {
+   color: rgb(238, 252, 255);
+}
+
+/* Remove underlines in the links in the nav bar */
+#nav li a:link { text-decoration: none; }
+#nav li a:visited { text-decoration: none; }
+#nav li a:hover { text-decoration: none; }
+#nav li a:active { text-decoration: none; }
+
+
+/* The nav bar takes up vertical space, so we have to move the rest of the page down */
+h1 {
+   padding-top: 2em;
+}
